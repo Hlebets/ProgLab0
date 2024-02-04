@@ -20,7 +20,7 @@ int main()
 		cout << "The mid of " << x << " and " << y << " squared is " << (pow(x, 2) + pow(y, 2)) / 2 << endl;
 		cout << "The geometrical mid of " << x << " and " << y << " is " << sqrt(fabs(x) * fabs(y)) << endl;
 	}
-	catch (exception& e)
+	catch (exception &e)
 	{
 		cerr << "Error: " << e.what() << endl;
 		return 1;
